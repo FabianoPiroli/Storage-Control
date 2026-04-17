@@ -1,0 +1,4 @@
+Sistema de Controle de Estoque
+
+Funcionalidades: Cadastro de produtos, controle de entrada/saída, relatórios e exportação de dados.
+Aprendizado: Relacionamento entre tabelas, geração de relatórios, segurança contra SQL Injection.
