@@ -34,5 +34,21 @@ class Administrator extends Person{
     public function assingStoreToManager(): void{
         // Lógica para atribuir lojas a gerentes
     }
+    public function viewStores(): void{
+        // Lógica para visualizar lojas
+    }
+
+    public function viewUsers(): void{
+        // Lógica para visualizar usuários
+    }
+
+    public function viewManagers(): void{
+        // Lógica para visualizar gerentes
+    }
+
+    public function viewStorage(): void{
+        // Lógica para visualizar estoque de todas as lojas
+    }
+
 
 }
