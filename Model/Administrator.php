@@ -25,5 +25,14 @@ class Administrator extends Person{
     }
     public function deleteStore(): void{
         // Lógica para deletar lojas
-    }   
+    }
+
+    public function managePermissions(): void{
+        // Lógica para gerenciar permissões
+    }
+
+    public function assingStoreToManager(): void{
+        // Lógica para atribuir lojas a gerentes
+    }
+
 }

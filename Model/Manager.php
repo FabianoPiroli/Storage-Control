@@ -17,5 +17,13 @@ class Manager extends Person{
     public function deleteProduct(Product $product): void{
         // Lógica para deletar um produto
     }
+
+    public function viewInventory(): void{
+        // Lógica para visualizar o estoque
+    }
+
+    public function viewReport(): void{
+        // Lógica para ver relatórios de vendas e estoque
+    }
 }
 ?>

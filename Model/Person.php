@@ -41,5 +41,10 @@ class Person{
     public function getPhoto(): string{
         return $this->photo;
     }
+
+    public function login(string $login, string $password, callable $checkRole): bool{
+        // Lógica para autenticar o usuário
+        return $this->login === $login && $this->password === $password && $checkRole();
+    }
 }
 ?>
